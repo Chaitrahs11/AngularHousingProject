@@ -8,4 +8,5 @@
     />
     <h2 class="listing-heading">{{ housingLocation1().name }}</h2>
     <p class="listing-location">{{ housingLocation1().city }}, {{ housingLocation1().state }}</p>
+    <a [routerLink]="['/details', housingLocation1().id]">Learn More</a>
   </section>

@@ -9,3 +9,4 @@ export interface Housinglocation {
     laundry: boolean;
     
 }
+
